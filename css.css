@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+canvas{
+    background-color: #eee;
+     display: block;
+     margin: 0 auto;
+      margin-top: 30px;
+      position: absolute;
+      left: 20%;
+}
+
+
+
+#koumpia{
+    position: absolute;
+    top: 40%;
+    left: 54%;
+    margin-left: -100px;
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+
+}
+button:hover{
+    background-color:bisque;
+}
+
+#win{
+    background-color: rgba(214, 19, 19, 0);
+    position: absolute;
+    left: 20%;
+    margin-top: 30px;
+
+    opacity: 0 ;
+    visibility: hidden;
+    width: 1000px;
+    height: 590px;
+    z-index: 3;
+     
+}
+#level_up{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+
+
+
+#play_button , #next_level{
+    background-color : transparent;
+    color: rgb(131, 71, 19);
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top :80%;
+    left :30%;
+    border-radius: 20px ;
+    font-size: 30px;
+
+    
+}
+#play_button:hover,#play_again:hover,#next_level:hover{
+    background-color: rgba(195, 174, 174, 0.365);
+}
+
+
+.show_menu{
+    margin: 6px 0px;
+    width: 35px;
+    background-color: red;
+    height: 5px;
+}
+
+#play_again{
+    
+    background-color : transparent;
+    color: blueviolet;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top :80%;
+    left :40%;
+    border-radius: 20px ;
+    font-size: 40px;
+
+}
+
+
+#plaisio_play{
+    background-color: #eee;
+    position: absolute;
+    width:1000px;
+    height: 590px;
+  background-color: black;
+  margin-top: 30px;
+  left: 20%;
+  z-index: 2;
+    opacity: 1;
+    visibility: visible;
+
+}
+#plaisio_play{
+    transition: 0.3ms;
+}
+#game_over_plaisio{
+    background-color: #eee;
+    position: absolute;
+    width:1000px;
+    height: 590px;
+  background-color: black;
+  margin-top: 30px;
+  left: 20%;
+   z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#image_play{
+    transition: 0.5s;
+}
+#image_over{
+    transition: 0.9s;
+}
+#pause_1{
+    position: absolute;
+    top: 3%;
+    left: 68.6%;
+    z-index: 1;
+    background-color: none;
+
+}
+#pause_1:hover{
+    background-color: transparent;
+}
